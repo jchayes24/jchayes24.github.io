@@ -10,3 +10,7 @@ body{
 a{
     color: yellow;
 }
+table, th, td {
+    border: 1px solid yellow;
+    color:yellow;
+  }
