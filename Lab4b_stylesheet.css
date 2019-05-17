@@ -1,0 +1,10 @@
+div {
+    position: fixed;
+    top:50;
+    left: 0;
+    width: 300px;
+  }
+  p{
+      width: 50px;
+  }
+
