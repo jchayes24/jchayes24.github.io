@@ -1,0 +1,50 @@
+
+.header{
+    font-family: 'Indie Flower', cursive;
+    color: greenyellow;
+    font-size: 50px;
+    border: 2px solid silver;
+    background-image: url("blurrr.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    text-align: center;
+    width:33%;
+}
+.profilepic{
+    border: 10px solid silver;
+    position:absolute;
+    top: 10px;
+    right: 417px;
+}
+body{
+    background-image: url("blurrback2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.FavePasttime, .GuiltyPleasure, .facebook{
+    width: 33%;
+    border: 2px solid silver;
+    background-image: url("blurrr.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+a{
+    font-size: 30px;
+    color: greenyellow;
+    font-family: 'Indie Flower', cursive;
+}
+.bio{
+    border: 2px solid silver;
+    background-color: black;
+    color: silver;
+    position: absolute;
+    bottom:162px;
+    right: 0;
+    padding: 15px;
+    font-size: 20px;
+    height: 20%;
+
+}
