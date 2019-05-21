@@ -1,0 +1,50 @@
+.Steph{
+    width: 200;
+    height: 668;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+body{
+    background-image: url("court.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+::backdrop{
+    filter: brightness(50%);
+}
+h1{
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    color: orange;
+    border: 1px solid orange;
+    background:  black;
+}
+.kaneki{
+    position: relative;
+    
+}
+p{
+    color: orange;
+    font-size: 18px;
+    border: 1px solid orange;
+    background:  black;
+    width: 30%;
+    right:0;
+    
+}
+.table, th, td{
+    border: 1px solid orange;
+    color: orange;
+    align-content: center;
+    font-size: 18px;
+    background-color: black;
+    
+}
+table{
+ width:30%;
+ right:0;
+}
+a{
+    color: orange;
+}
