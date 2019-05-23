@@ -1,0 +1,81 @@
+body{
+    background-image: url("blurrback2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.cloud{
+    border: 2px solid silver;
+    float:left;
+    margin: 2px;
+}
+.clouddes{
+    border: 2px solid silver;
+    background-color: black;
+    color: silver;
+    float:left;
+    clear: right;
+    margin: 2px;
+}
+.joker{
+    border: 2px solid silver;
+    float:left;
+    clear:left;
+    margin: 2px;
+}
+.jokerdes{
+    border: 2px solid silver;
+    background-color: black;
+    color: silver;
+    float:left;
+    clear: right;
+    margin: 2px;
+}
+.eren{
+    border: 2px solid silver;
+    float:left;
+    clear:left;
+    margin: 2px;
+}
+.erendes{
+    border: 2px solid silver;
+    background-color: black;
+    color: silver;
+    float:left;
+    clear: right;
+    margin: 2px;
+}
+.kaneki{
+    border: 2px solid silver;
+    float: left;
+    clear: left;
+    margin: 2px;
+    width: 250px;
+    height: 250px;
+}
+.kanekides{
+    border: 2px solid silver;
+    background-color: black;
+    color: silver;
+    float:left;
+    clear: right;
+    margin: 2px;
+}
+.saitama{
+    border: 2px solid silver;
+    float: left;
+    clear: left;
+    margin: 2px;
+}
+.saitamades{
+    border: 2px solid silver;
+    background-color: black;
+    color: silver;
+    float:left;
+    clear: right;
+    margin: 2px;
+}
