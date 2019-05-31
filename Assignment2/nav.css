@@ -1,0 +1,96 @@
+/* Thanks to https://codepen.io/lisa_c/pen/akjiy */
+.nav ul {
+  list-style: none;
+  background-image: url("beerback.jpeg"); /* this is the color of the top nav bar */
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: crimson;
+  padding: 0;
+  margin: 0px;
+}
+.nav li {
+  font-family: 'Nothing You Could Do', cursive; /* I changed this to my choice of google font */
+  font-size: 35px;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid yellow;
+  margin-bottom: 0; /* this was added to fix inheritance issue */
+}
+
+
+.nav a {
+  text-decoration: none;
+  color: black; /* this is the color of the nav bar text */
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: coral;
+}
+
+.nav a.active {
+  background-color:coral ;
+  color: coral;
+  cursor: default;
+}
+/* this is the css code for the responsiveness of the .nav navigation */
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  } /* this is nested css. Don't delete this bracket, or it will break */
+
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+}
+/* below is the css nav code for the classes you are taking sub-nav. */
+.sub-nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-nav a {
+  text-decoration: none;
+  display: block;
+  transition: .3s background-color;
+
+
+}
+
+.sub-nav li {
+  display: inline-block;
+  margin-right: -4px;
+  width: 75px;
+  border-bottom: none;
+  /*height: 40px;
+  line-height: 40px; */
+  font-family: 'Alegreya SC', serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+
+.sub-nav a.active {
+  color: black;
+  font-weight: bold;
+}
+
+/* this is the css code for the responsiveness of the .sub-nav navigation */
+@media screen and (min-width: 600px) {
+  .sub-nav li {
+    width: 150px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+}
